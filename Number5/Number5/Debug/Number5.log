@@ -1,0 +1,3 @@
+﻿  Number5.cpp
+C:\Users\Admin\PycharmProjects\Lab1\Number5\Number5\Number5.cpp(7,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Number5.vcxproj -> C:\Users\Admin\PycharmProjects\Lab1\Number5\Debug\Number5.exe
