@@ -10,8 +10,8 @@ void main() {
 	setlocale(LC_ALL, "Rus");
 	srand(time(NULL));
 
-	int *a;
-	int i, n;
+	int** a;
+	int i, j, n;
 	int minimum, maximum;
 
 	printf("Введите минимальный элемент массива: ");
@@ -21,12 +21,22 @@ void main() {
 	printf("Введите размер массива: ");
 	scanf_s("%d", &n);
 
-	a = (int*)malloc(n * sizeof(int));
+	a = (int**)malloc(n * sizeof(int));
+
 	for (i = 0; i < n; i++) {
-		a[i] = minimum + rand() % (maximum - minimum + 1);
+		int* b = (int*)malloc(n * sizeof(int));
+		for (j = 0; j < n; j++) {
+			b[j] = minimum + rand() % (maximum - minimum + 1);
+		}
+		a[i] = b;
 	}
 
-	for (i = 0; i < n; i++)
-		printf("%d ", a[i]);
+	for (i = 0; i < n; i++) {
+		for (j = 0; j < n; j++) {
+			printf("%4d ", a[i][j]);
+		}
+		printf("\n");
+	}
+
 	free(a);
 }

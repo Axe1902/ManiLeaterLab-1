@@ -1,4 +1,4 @@
 ﻿  Lab_1.cpp
-D:\Никита\Лабы, отчеты и т.п\Программирование\programm\Lab_1\Lab_1\Lab_1.cpp(8,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-D:\Никита\Лабы, отчеты и т.п\Программирование\programm\Lab_1\Lab_1\Lab_1.cpp(10,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Lab_1.vcxproj -> D:\Никита\Лабы, отчеты и т.п\Программирование\programm\Lab_1\Debug\Lab_1.exe
+C:\Users\Admin\PycharmProjects\Lab1\Lab_1\Lab_1\Lab_1.cpp(9,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\Admin\PycharmProjects\Lab1\Lab_1\Lab_1\Lab_1.cpp(11,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Lab_1.vcxproj -> C:\Users\Admin\PycharmProjects\Lab1\Lab_1\Debug\Lab_1.exe
